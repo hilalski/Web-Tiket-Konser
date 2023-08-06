@@ -1,0 +1,78 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Invoice</title>
+		<link rel="stylesheet" href="mycss.css">
+	</head>
+	<body>
+		<header>
+			<h1>Invoice Konser Tulus</h1>
+			<address >
+				<p>NIK:<span id="no-Id"></span></p>
+				<p>Nama:<span id="name"></span><p>
+				<p>No Telpon:<span id="no-Telepon"></span></p>
+				<p>Metode Pembayaran:<span id="pembayaran"></span></p>
+			</address>
+			<span><img src="https://imgx.parapuan.co/crop/0x0:1080x453/x/photo/2022/12/29/harga-tiket-konser-tulusjpg-20221229022910.jpg" width="800" ></span>
+		</header>
+		<article>
+			<h1>Recipient</h1>
+			<address>
+				<p>PT Tulus Jaya<br>--------------------</p>
+			</address>
+			<table class="meta">
+				<tr>
+					<th><span>Invoice #</span></th>
+					<td><span>101138</span></td>
+				</tr>
+				<tr>
+					<th><span >Date</span></th>
+					<td><span >March 3, 2023</span></td>
+				</tr>
+
+			</table>
+			<table class="inventory">
+				<thead>
+					<tr>
+						<th><span >Item</span></th>
+						<th><span >Section</span></th>
+						<th><span >Rate</span></th>
+						<th><span >Quantity</span></th>
+						<th><span >Price</span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><a class="cut">-</a><span >Konser Tulus Tur Manusia</span></td>
+						<td><span id="kategori"></span></td>
+						<td><span data-prefix>Rp</span><span id="harga" ></span></td>
+						<td><span id="kuantitas" ></span></td>
+						<td><span data-prefix>Rp</span><span id="totalHarga"></span></td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="balance">
+				<tr>
+					<th><span >Tax</span></th>
+					<td><span data-prefix>Rp</span><span id="tax"></span></td>
+				</tr>
+				<tr>
+					<th><span >Total</span></th>
+					<td><span data-prefix>Rp</span><span id="jumlahPembayaran"></span></td>
+				</tr>
+			</table>
+		</article>
+		<aside>
+			<h1><span >Additional Notes</span></h1>
+			<div >
+				<p>Tunjukan invoice kepada petugas dibagian penukaran tiket untuk ditukarkan dengan tiket fisik.</p>
+                <p>Tiket tidak dapat dipindah tangankan atau diuangkan kembali.</p>
+                <br>
+                <br>
+                <p id="tax">*Harga Tiket Sudah Termasuk Pajak</p>
+			</div>
+		</aside>
+		<script src="page2.js"></script>
+	</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konser Tulus</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <section class="formulir">
+        <div class="container">
+            <form id="form">
+                <h1>Form Pemesanan Tiket</h1>
+                <label for="noId">Nomor Identitas</label>
+                <input type="text" id="noId" name="nomoridentitas" placeholder="Nomor Identitas">
+
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="name" placeholder="Nama">
+
+                <label for="noTelepon">Nomor Telepon</label>
+                <input type="text" id="noTelepon" name="nomortelepon" placeholder="Nomor Telepon">
+
+                <label for="kuantitas">Kuantitas</label>
+                <input type="text" id="kuantitas" name="kuantitas" placeholder="Kuantitas">
+
+                <label for="kategori">Kategori</label>
+                <select id="kategori" name="kategori">
+                  <option value="VIP">VIP - 500 Ribu</option>
+                  <option value="Silver">Silver - 250 Ribu</option>
+                  <option value="Bronze">Bronze - 100 Ribu</option>
+                </select>
+
+                <label for="pembayaran">Metode Pembayaran</label>
+                <select id="pembayaran" name="pembayaran">
+                  <option value="Gopay">Gopay</option>
+                  <option value="Bank-BCA">Bank BCA</option>
+                  <option value="Indomaret-Alfamart">Indomaret/Alfamart</option>
+                  <option value="Visa">Visa</option>
+                  <option value="Ngutang">Ngutang</option>
+                </select>
+                    <input type="submit" value="Pesan"> 
+            </form> 
+        </div>
+
+        <script src="page1.js"></script>
+    </section>
+</body>
+</html>
+
